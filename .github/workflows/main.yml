@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy Static Site to S3 Bucket
-        run: aws s3 sync . s3://day86 --delete
+        run: aws s3 sync . s3://sdi-ui --delete
